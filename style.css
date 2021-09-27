@@ -1,0 +1,59 @@
+
+
+
+
+#clockcontainer{
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+    height: 23vw;
+    width: 23vw;
+    background: url('Whiteanalogclacok.jpg') no-repeat;
+    background-size:104%;
+
+}
+
+
+#hour,#minute,#second{
+    position: absolute;
+    border-radius: 12px;
+    transform-origin: bottom;
+
+}
+
+
+
+#hour{
+    background-color: red;
+    width: 6px;
+    height: 17%;
+    top: 81px;
+    left: 114px;
+    color: red;
+  
+}
+
+
+
+#minute{
+    background-color: blue;
+    width: 4px;
+    height: 26%;
+    top: 59px;
+    left: 115px;
+    color: blue;
+  
+}
+
+
+
+#second{
+
+    background-color: #0d0d01;
+    width: 2px;
+    height: 32%;
+    top: 45px;
+    left: 116px;
+    color: #151502;
+
+}
